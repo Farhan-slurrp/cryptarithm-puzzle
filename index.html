@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Cryptarithm Puzzle</title>
+</head>
+<body>
+    <main>
+        <section class="loading" display="block">loading</section>
+        <section class="home" display="none">
+            <h1 class="title">Cryptarithm<br />Puzzle</h1>
+            <image src="./public/images/math.png" height="150" width="150">
+                <image src="./public/images/brick.png" class="brick">
+                <button class="start-btn" onclick="start()">Start</button>
+        </section>
+        <section class="main-game" display="none">
+            <p>Level 1</p>
+        </section>
+    </main>
+</body>
+<script>
+    const searchParams = new URLSearchParams(window.location.search);
+    const loading = document.querySelector(".loading");
+    const home = document.querySelector(".home");
+    const mainGame = document.querySelector(".main-game");
+    if (searchParams.get("level")) {
+        loading.style.display = "none";
+        home.style.display = "none";
+        mainGame.style.display = "flex";
+    } else {
+        loading.style.display = "none";
+        home.style.display = "flex";
+        mainGame.style.display = "none";
+    }
+    
+
+    function start() {
+        if ('URLSearchParams' in window) {
+            searchParams.set("level", "1");
+            window.location.search = searchParams.toString();
+        }
+    }
+</script>
+</html>

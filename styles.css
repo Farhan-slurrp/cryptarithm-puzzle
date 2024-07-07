@@ -1,0 +1,51 @@
+body {
+    background-color: bisque;
+    font-family: 'Press Start 2p';
+    padding: 2rem 1rem;
+}
+
+.brick {
+    width: 100vw;
+    height: 8rem;
+    margin-top: -1rem;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.start-btn{
+    font-size: 8pt;
+    font-family: 'Press Start 2p';
+	display: inline-block;
+    margin-top: 4rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: rgb(252, 207, 152);
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: rgb(255, 148, 17);
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+    box-shadow: 0 .2em rgb(255, 157, 37); 
+    cursor: pointer;
+
+}
+
+.start-btn:active {
+	box-shadow: none;
+	position: relative;
+	top: .2em;
+}
+
+.title {
+    color: rgb(255, 157, 37);
+    font-weight: bold;
+    text-align: center;
+    font-size: 18pt;
+}
