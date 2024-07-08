@@ -1,4 +1,4 @@
-# cryptarithm-puzzle
+# cryptarithm-puzzle (WIP)
 
 A fun puzzle to train your math skill on solving cryptarithm questions.
 
