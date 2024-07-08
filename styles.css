@@ -10,11 +10,38 @@ body {
     margin-top: -1rem;
 }
 
-.home {
+.divider {
+    border-bottom: 2px solid rgb(192, 106, 1);
+    position: relative;
+}
+
+.divider::before {
+    content: "+";
+    position: absolute;
+    left: 0;
+    top: -2.5rem;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    margin-top: 4rem;
+    gap: 1rem;
+    color:rgb(192, 106, 1)
+}
+
+.home,
+.main-game {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+}
+
+.letters {
+    display: flex;
+    gap: 2rem;
 }
 
 
@@ -48,4 +75,22 @@ body {
     font-weight: bold;
     text-align: center;
     font-size: 18pt;
+}
+
+.top,
+.bottom,
+.divider,
+.answer {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    justify-content: end;
+    font-size: 15pt;
+}
+
+.user-answer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
 }
