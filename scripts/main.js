@@ -36,9 +36,14 @@ if (level) {
     const uniqueLetters = getUniqueLetters(level);
     uniqueLetters.forEach(ch => {
         const char = document.createElement("div");
-        char.innerHTML = ch;
+        char.classList.add("input-wrapper");
+        char.innerHTML = `
+            <p class="letter">${ch}</p>
+            <input class="answer-input" data-id=${ch} type="number" oninput="handleChange(this)" maxLength="1" min="0" />
+        `;
         letters.appendChild(char);
     });
+    
 } else {
     loading.style.display = "none";
     home.style.display = "flex";

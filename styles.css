@@ -1,13 +1,53 @@
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
 body {
     background-color: bisque;
     font-family: 'Press Start 2p';
     padding: 2rem 1rem;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.answer-msg {
+    color: rgb(255, 68, 68);
+    font-size: 7pt;
+}
+
+.answer-input {
+    all: unset;
+    padding: 0.2rem;
+    width: 1rem;
+    border: 1px solid gray;
+}
+
 .brick {
     width: 100vw;
     height: 8rem;
     margin-top: -1rem;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
 }
 
 .divider {
@@ -39,9 +79,23 @@ body {
     gap: 1rem;
 }
 
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.3rem;
+}
+
+.letter {
+    margin: 0;
+    margin-bottom: 0.3rem;
+}
+
 .letters {
     display: flex;
-    gap: 2rem;
+    gap: 0.2rem;
+    border: 1px solid gray;
+    padding: 0.2rem;
 }
 
 
@@ -70,6 +124,40 @@ body {
 	top: .2em;
 }
 
+.submit-btn{
+    font-size: 7pt;
+    width: 7.5rem;
+    font-family: 'Press Start 2p';
+	display: inline-block;
+    margin-top: 4rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: rgb(252, 207, 152);
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: rgb(255, 148, 17);
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+    box-shadow: 0 .2em rgb(255, 157, 37); 
+    cursor: pointer;
+
+}
+
+.submit-btn:active {
+	box-shadow: none;
+	position: relative;
+	top: .2em;
+}
+
+.submit-btn:disabled {
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    box-shadow: 0 .2em gray; 
+    cursor: not-allowed;
+}
+
 .title {
     color: rgb(255, 157, 37);
     font-weight: bold;
@@ -91,6 +179,7 @@ body {
 .user-answer {
     width: 100%;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }

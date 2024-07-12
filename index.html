@@ -10,14 +10,14 @@
 </head>
 <body>
     <main>
-        <section class="loading" display="block">loading</section>
-        <section class="home" display="none">
+        <section class="loading">loading</section>
+        <section class="home">
             <h1 class="title">Cryptarithm<br />Puzzle</h1>
             <image src="./public/images/math.png" height="150" width="150">
             <image src="./public/images/brick.png" class="brick">
             <button class="start-btn" onclick="start()">Start</button>
         </section>
-        <section class="main-game" display="none">
+        <section class="main-game">
             <p class="level"></p>
             <section class="game">
                 <div class="top"></div>
@@ -26,12 +26,16 @@
                 <div class="answer"></div>
             </section>
             <section class="user-answer">
-                <p>Answer:</p>
+                <p class="answer-msg">Answer here!</p>
                 <div class="letters"></div>
+                <div class="buttons-wrapper">
+                    <button class="submit-btn" disabled onclick="start()">Submit</button>
+                </div>
             </section>
         </section>
     </main>
 </body>
+<script src="./scripts/variables.js"></script>
 <script src="./scripts/questions.js"></script>
 <script src="./scripts/functions.js"></script>
 <script src="./scripts/main.js"></script>
