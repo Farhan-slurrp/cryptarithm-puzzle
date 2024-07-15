@@ -68,7 +68,6 @@ function handleChange(e) {
     if (Array.from(uniqueLettersMap.values()).includes(e.value)) {
         e.value = null;
     }
-    if(e.value.length == 0) return;
 
     const id = e.getAttribute("data-id");
     uniqueLettersMap.set(id, e.value);
