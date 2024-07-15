@@ -27,6 +27,12 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+.answer-feedback {
+    font-size: 7pt;
+    color: gray;
+    margin-top: 1rem;
+}
+
 .answer-msg {
     color: rgb(255, 68, 68);
     font-size: 7pt;
@@ -48,6 +54,8 @@ input[type=number] {
 .buttons-wrapper {
     display: flex;
     justify-content: center;
+    gap: 7rem;
+    margin-top: 3rem;
 }
 
 .divider {
@@ -98,6 +106,20 @@ input[type=number] {
     padding: 0.2rem;
 }
 
+.retry-n-next-btn {
+    all: unset;
+    color: rgb(255, 148, 17);
+    font-size: 10pt;
+}
+
+.retry-n-next-btn > span {
+    display: flex;
+    justify-content: center;
+    font-size: 23pt;
+    padding-bottom: 0.2rem;
+    cursor: pointer;
+}
+
 
 .start-btn{
     font-size: 8pt;
@@ -129,7 +151,6 @@ input[type=number] {
     width: 7.5rem;
     font-family: 'Press Start 2p';
 	display: inline-block;
-    margin-top: 4rem;
     font-weight: bold;
     padding: 10px 15px;
     background-color: rgb(252, 207, 152);

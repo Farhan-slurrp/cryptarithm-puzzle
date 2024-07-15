@@ -7,9 +7,9 @@ const questions = [
   },
   {
     "level": 2,
-    "top": ["C", "D"],
-    "bottom": ["C"],
-    "answer": ["D", "A", "D"]
+    "top": ["T", "O"],
+    "bottom": ["G", "O"],
+    "answer": ["O", "U", "T"]
   },
   {
     "level": 3,

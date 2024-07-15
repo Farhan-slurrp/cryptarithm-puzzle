@@ -2,8 +2,18 @@ const searchParams = new URLSearchParams(window.location.search);
 const loading = document.querySelector(".loading");
 const home = document.querySelector(".home");
 const mainGame = document.querySelector(".main-game");
-const level = getCurrentLevel(); 
+const lastFinishedLevel = localStorage.getItem(LAST_FINISHED_LEVEL);
+const actualCurrentLevel = Number(lastFinishedLevel) + 1;
+level = getCurrentLevel(); 
+
+if(lastFinishedLevel > 0 && level != actualCurrentLevel) {
+    goToLevel(actualCurrentLevel);
+}
+
 if (level) {
+    if ((!lastFinishedLevel || lastFinishedLevel <= 0) && level != "1") {
+        goToLevel(1);
+    }
     loading.style.display = "none";
     home.style.display = "none";
     mainGame.style.display = "flex";
@@ -16,7 +26,7 @@ if (level) {
 
     levelElem.innerHTML = `Level ${level}`;
 
-    const question = questions[level - 1];
+    question = questions[level - 1];
     question["top"].forEach(ch => {
         const char = document.createElement("div");
         char.innerHTML = ch;
