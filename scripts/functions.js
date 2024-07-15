@@ -64,7 +64,7 @@ function goToLevel(level) {
 }
 
 function handleChange(e) {
-    if (e.value.length > e.maxLength) e.value = e.value.slice(-1);
+    if (e.value.length > e.maxLength) e.value = e.value.slice(-1)[0];
     if (Array.from(uniqueLettersMap.values()).includes(e.value)) {
         e.value = null;
     }
