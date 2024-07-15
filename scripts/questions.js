@@ -13,176 +13,170 @@ const questions = [
   },
   {
     "level": 3,
-    "top": ["E", "F"],
-    "bottom": ["E", "F"],
-    "answer": ["T", "E", "F", "T"]
+    "top": ["T", "T", "B"],
+    "bottom": ["C"],
+    "answer": ["J", "O", "O", "G"]
   },
   {
     "level": 4,
-    "top": ["G", "H", "I"],
-    "bottom": ["G"],
-    "answer": ["B", "O", "B", "G"]
+    "top": ["D", "O", "G"],
+    "bottom": ["G", "O", "D"],
+    "answer": ["C", "A", "T"]
   },
   {
     "level": 5,
-    "top": ["J", "K", "L"],
-    "bottom": ["J", "K"],
-    "answer": ["N", "A", "N", "J", "K"]
+    "top": ["H", "A", "P", "P", "Y"],
+    "bottom": ["B", "I", "R", "T", "H"],
+    "answer": ["B", "I", "R", "T", "H", "D", "A", "Y"]
   },
   {
     "level": 6,
-    "top": ["M", "N", "O"],
-    "bottom": ["M", "N"],
-    "answer": ["S", "A", "S", "M", "N"]
+    "top": ["M", "O", "U", "S", "E"],
+    "bottom": ["H", "O", "U", "S", "E"],
+    "answer": ["R", "E", "N", "O", "V", "A", "T", "E"]
   },
   {
     "level": 7,
-    "top": ["P", "Q", "R"],
-    "bottom": ["P", "Q", "R"],
-    "answer": ["P", "O", "P", "Q", "R"]
+    "top": ["S", "U", "N"],
+    "bottom": ["R", "A", "I", "N"],
+    "answer": ["W", "E", "A", "T", "H", "E", "R"]
   },
   {
     "level": 8,
-    "top": ["S", "T", "U"],
-    "bottom": ["S", "T"],
-    "answer": ["G", "A", "G", "S", "T"]
+    "top": ["S", "T", "A", "R"],
+    "bottom": ["M", "O", "O", "N"],
+    "answer": ["S", "P", "A", "C", "E"]
   },
   {
     "level": 9,
-    "top": ["V", "W", "X"],
-    "bottom": ["V", "W"],
-    "answer": ["X", "A", "X", "V", "W"]
+    "top": ["F", "L", "O", "W", "E", "R"],
+    "bottom": ["G", "R", "A", "S", "S"],
+    "answer": ["N", "A", "T", "U", "R", "E"]
   },
   {
     "level": 10,
-    "top": ["Y", "Z", "A", "B"],
-    "bottom": ["Y", "Z"],
-    "answer": ["M", "O", "M", "Y", "Z"]
+    "top": ["P", "E", "A", "C", "E"],
+    "bottom": ["L", "O", "V", "E"],
+    "answer": ["H", "A", "R", "M", "O", "N", "Y"]
   },
   {
     "level": 11,
-    "top": ["C", "D", "E", "F"],
-    "bottom": ["C", "D"],
-    "answer": ["D", "A", "D", "C", "D"]
+    "top": ["C", "A", "T"],
+    "bottom": ["D", "O", "G"],
+    "answer": ["P", "E", "T"]
   },
   {
     "level": 12,
-    "top": ["G", "H", "I", "J"],
-    "bottom": ["G", "H", "I"],
-    "answer": ["T", "E", "F", "T", "G", "H", "I"]
+    "top": ["S", "M", "I", "L", "E"],
+    "bottom": ["F", "R", "O", "W", "N"],
+    "answer": ["H", "A", "P", "P", "Y"]
   },
   {
     "level": 13,
-    "top": ["K", "L", "M", "N"],
-    "bottom": ["K", "L", "M"],
-    "answer": ["B", "O", "B", "K", "L", "M"]
+    "top": ["B", "O", "O", "K"],
+    "bottom": ["P", "A", "G", "E"],
+    "answer": ["R", "E", "A", "D"]
   },
   {
     "level": 14,
-    "top": ["O", "P", "Q", "R"],
-    "bottom": ["O", "P", "Q"],
-    "answer": ["N", "A", "N", "O", "P", "Q"]
+    "top": ["B", "L", "A", "C", "K"],
+    "bottom": ["W", "H", "I", "T", "E"],
+    "answer": ["C", "O", "L", "O", "R"]
   },
   {
     "level": 15,
-    "top": ["S", "T", "U", "V"],
-    "bottom": ["S", "T", "U"],
-    "answer": ["S", "A", "S", "S", "T", "U"]
+    "top": ["B", "I", "R", "T", "H"],
+    "bottom": ["D", "A", "T", "E"],
+    "answer": ["C", "A", "L", "E", "N", "D", "A", "R"]
   },
   {
     "level": 16,
-    "top": ["W", "X", "Y", "Z"],
-    "bottom": ["W", "X", "Y"],
-    "answer": ["P", "O", "P", "W", "X", "Y"]
+    "top": ["A", "P", "P", "L", "E"],
+    "bottom": ["B", "A", "N", "A", "N", "A"],
+    "answer": ["F", "R", "U", "I", "T"]
   },
   {
     "level": 17,
-    "top": ["A", "B", "C", "D", "E"],
-    "bottom": ["A", "B", "C"],
-    "answer": ["G", "A", "G", "A", "B", "C"]
+    "top": ["T", "R", "E", "E"],
+    "bottom": ["L", "E", "A", "F"],
+    "answer": ["N", "A", "T", "U", "R", "E"]
   },
   {
     "level": 18,
-    "top": ["F", "G", "H", "I", "J"],
-    "bottom": ["F", "G", "H"],
-    "answer": ["X", "A", "X", "F", "G", "H"]
+    "top": ["B", "I", "R", "D"],
+    "bottom": ["F", "L", "Y"],
+    "answer": ["A", "I", "R"]
   },
   {
     "level": 19,
-    "top": ["K", "L", "M", "N", "O"],
-    "bottom": ["K", "L", "M", "N"],
-    "answer": ["M", "O", "M", "K", "L", "M", "N"]
+    "top": ["P", "E", "N"],
+    "bottom": ["P", "A", "P", "E", "R"],
+    "answer": ["W", "R", "I", "T", "E"]
   },
   {
     "level": 20,
-    "top": ["P", "Q", "R", "S", "T"],
-    "bottom": ["P", "Q", "R", "S"],
-    "answer": ["D", "A", "D", "P", "Q", "R", "S"]
+    "top": ["L", "I", "G", "H", "T"],
+    "bottom": ["D", "A", "R", "K"],
+    "answer": ["D", "A", "Y", "N", "I", "G", "H", "T"]
   },
   {
     "level": 21,
-    "top": ["U", "V", "W", "X", "Y"],
-    "bottom": ["U", "V", "W", "X"],
-    "answer": ["T", "E", "F", "T", "U", "V", "W", "X"]
+    "top": ["M", "A", "T", "H"],
+    "bottom": ["S", "C", "I", "E", "N", "C", "E"],
+    "answer": ["S", "T", "U", "D", "Y"]
   },
   {
     "level": 22,
-    "top": ["Z", "A", "B", "C", "D"],
-    "bottom": ["Z", "A", "B", "C"],
-    "answer": ["B", "O", "B", "Z", "A", "B", "C"]
+    "top": ["E", "N", "G", "I", "N", "E"],
+    "bottom": ["C", "A", "R"],
+    "answer": ["T", "R", "A", "V", "E", "L"]
   },
   {
     "level": 23,
-    "top": ["E", "F", "G", "H", "I"],
-    "bottom": ["E", "F", "G", "H"],
-    "answer": ["N", "A", "N", "E", "F", "G", "H"]
+    "top": ["H", "O", "M", "E"],
+    "bottom": ["H", "O", "U", "S", "E"],
+    "answer": ["S", "H", "E", "L", "T", "E", "R"]
   },
   {
     "level": 24,
-    "top": ["J", "K", "L", "M", "N"],
-    "bottom": ["J", "K", "L", "M"],
-    "answer": ["S", "A", "S", "J", "K", "L", "M"]
+    "top": ["B", "O", "A", "T"],
+    "bottom": ["S", "E", "A"],
+    "answer": ["W", "A", "T", "E", "R"]
   },
   {
     "level": 25,
-    "top": ["O", "P", "Q", "R", "S"],
-    "bottom": ["O", "P", "Q", "R"],
-    "answer": ["P", "O", "P", "O", "P", "Q", "R"]
+    "top": ["M", "O", "U", "N", "T", "A", "I", "N"],
+    "bottom": ["H", "I", "L", "L"],
+    "answer": ["E", "A", "R", "T", "H"]
   },
   {
     "level": 26,
-    "top": ["T", "U", "V", "W", "X"],
-    "bottom": ["T", "U", "V", "W"],
-    "answer": ["G", "A", "G", "T", "U", "V", "W"]
+    "top": ["C", "O", "M", "P", "U", "T", "E", "R"],
+    "bottom": ["K", "E", "Y", "B", "O", "A", "R", "D"],
+    "answer": ["T", "E", "C", "H", "N", "O", "L", "O", "G", "Y"]
   },
   {
     "level": 27,
-    "top": ["Y", "Z", "A", "B", "C", "D"],
-    "bottom": ["Y", "Z", "A", "B", "C"],
-    "answer": ["X", "A", "X", "Y", "Z", "A", "B", "C"]
+    "top": ["M", "O", "R", "N", "I", "N", "G"],
+    "bottom": ["N", "I", "G", "H", "T"],
+    "answer": ["D", "A", "Y"]
   },
   {
     "level": 28,
-    "top": ["E", "F", "G", "H", "I", "J"],
-    "bottom": ["E", "F", "G", "H", "I"],
-    "answer": ["M", "O", "M", "E", "F", "G", "H", "I"]
+    "top": ["S", "U", "M", "M", "E", "R"],
+    "bottom": ["W", "I", "N", "T", "E", "R"],
+    "answer": ["S", "E", "A", "S", "O", "N"]
   },
   {
     "level": 29,
-    "top": ["K", "L", "M", "N", "O", "P"],
-    "bottom": ["K", "L", "M", "N", "O"],
-    "answer": ["D", "A", "D", "K", "L", "M", "N", "O"]
+    "top": ["F", "O", "O", "D"],
+    "bottom": ["W", "A", "T", "E", "R"],
+    "answer": ["E", "A", "T"]
   },
   {
     "level": 30,
-    "top": ["Q", "R", "S", "T", "U", "V"],
-    "bottom": ["Q", "R", "S", "T", "U"],
-    "answer": ["T", "E", "F", "T", "Q", "R", "S", "T", "U"]
-  },
-  {
-    "level": 31,
-    "top": ["W", "X", "Y", "Z", "A", "B"],
-    "bottom": ["W", "X", "Y", "Z", "A"],
-    "answer": ["B", "O", "B", "W", "X", "Y", "Z", "A"]
+    "top": ["P", "A", "R", "K"],
+    "bottom": ["P", "L", "A", "Y"],
+    "answer": ["F", "U", "N"]
   }
 ]
