@@ -25,9 +25,9 @@ const questions = [
   },
   {
     "level": 5,
-    "top": ["H", "A", "P", "P", "Y"],
-    "bottom": ["B", "I", "R", "T", "H"],
-    "answer": ["B", "I", "R", "T", "H", "D", "A", "Y"]
+    "top": ["S", "E", "N", "D"],
+    "bottom": ["M", "O", "R", "E"],
+    "answer": ["M", "O", "N", "E", "Y"]
   },
   {
     "level": 6,
